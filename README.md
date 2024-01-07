@@ -11,6 +11,7 @@ will use in the grading of your project.
 A break down the code and its classes and methods:
 
 Block class:
+
 This class represents a block in the blockchain.
 ===============================
 
@@ -19,6 +20,7 @@ __init__(self, data, previous_hash): The constructor takes in data (any informat
 calculate_hash(self): This method concatenates the block's timestamp, data, and previous hash into a string. It then uses the SHA-256 hash function from the hashlib library to generate a hexadecimal digest of this string, which serves as the block's unique identifier.
 
 Blockchain class:
+
 This class represents the blockchain itself, a linked list of Block objects.
 ===============================
 
