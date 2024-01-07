@@ -40,3 +40,16 @@ class Blockchain:
         return True
     
 
+# Create a blockchain
+    
+    
+# Add some blocks
+
+
+# Check if the blockchain is valid
+
+
+# View the blockchain
+
+
+
