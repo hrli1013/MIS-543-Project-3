@@ -9,6 +9,7 @@ Blockchian.py provides all the scaffolding you need to handle the command line a
 will use in the grading of your project.
 
 A break down the code and its classes and methods:
+===============================
 
 Block class:
 ===============================
