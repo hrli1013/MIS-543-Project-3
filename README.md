@@ -11,18 +11,18 @@ will use in the grading of your project.
 A break down the code and its classes and methods:
 
 Block class:
+===============================
 
 This class represents a block in the blockchain.
-===============================
 
 __init__(self, data, previous_hash): The constructor takes in data (any information which is to be recorded in the block) and previous_hash (the hash of the previous block in the chain). It sets the block's timestamp to the current datetime, saves the provided data, saves the previous hash, and calculates the block's own hash using the calculate_hash method.
 
 calculate_hash(self): This method concatenates the block's timestamp, data, and previous hash into a string. It then uses the SHA-256 hash function from the hashlib library to generate a hexadecimal digest of this string, which serves as the block's unique identifier.
 
 Blockchain class:
+===============================
 
 This class represents the blockchain itself, a linked list of Block objects.
-===============================
 
 __init__(self): The constructor initializes the blockchain with a list containing a genesis block, which is the first block in the blockchain, created by the create_genesis_block method.
 
